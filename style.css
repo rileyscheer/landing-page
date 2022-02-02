@@ -37,7 +37,7 @@ html, body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
-}
+} 
 
 .second-wrapper {
     background-color: #1F2937;
@@ -58,6 +58,10 @@ html, body {
     max-width: 500px;
 }
 
+.main-img {
+    filter: drop-shadow(10px 10px 12px);
+}
+
 .sign-up-top {
     background-color: #3882F6;
     width: 120px;
@@ -66,6 +70,17 @@ html, body {
     border-radius: 8px;
     font-weight: bold;
     border: none;
+}
+
+.login {
+    color:#E5E7EB;
+    background-color: #1F2937;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    margin-left: 15px;
 }
 
 .white-section-header {
@@ -77,25 +92,25 @@ html, body {
 }
 
 .first-img {
-    border: solid 4px #3882F6;
+    filter: drop-shadow(8px 8px 10px);
     border-radius: 12px;
     margin-bottom: 10px;
 }
 
 .second-img {
-    border: solid 4px #3882F6;
+    filter: drop-shadow(8px 8px 10px);
     border-radius: 12px;
     margin-bottom: 10px;
 }
 
 .third-img {
-    border: solid 4px #3882F6;
+    filter: drop-shadow(8px 8px 10px);
     border-radius: 12px;
     margin-bottom: 10px;
 }
 
 .fourth-img {
-    border: solid 4px #3882F6;
+    filter: drop-shadow(8px 8px 10px);
     border-radius: 12px;
     margin-bottom: 10px;
 }
@@ -141,9 +156,10 @@ figcaption {
     background-color: #3882F6;
     margin: 100px 200px;
     border-radius: 12px;
+    filter: drop-shadow(8px 8px 8px black);
 }
 
-.cta h3{
+.cta h3 {
     font-size: 36px;
     margin-top: 25px;
 }
@@ -166,8 +182,17 @@ figcaption {
 
 foot {
     display: flex;
-    justify-content: center;
     color: #E5E7EB;
     background-color: #1F2937;
     padding: 20px 0;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 200px;
+}
+
+.right {
+    padding-left: 550px;
 }
