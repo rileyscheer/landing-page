@@ -1,0 +1,95 @@
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 190px;
+}
+
+.hero ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 10px;
+    transition: all 50ms ease-in-out;
+}
+
+.link a:hover {
+    color: #3882F6;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+} 
+
+.hero a {
+    text-decoration: none;
+}
+
+main {
+    background-image: url("resources/stars-1845140_1920.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.main-header {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+.paragraph {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 0 600px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+
+foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 20px 0;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 200px;
+}
+
+.right {
+    padding-right: 200px;
+}

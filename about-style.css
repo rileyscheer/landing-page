@@ -1,0 +1,111 @@
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 190px;
+}
+
+.hero ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 10px;
+    transition: all 100ms ease-in-out;
+}
+
+.link a:hover {
+    color: #3882F6;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+} 
+
+.hero a {
+    text-decoration: none;
+}
+
+#main-body {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.main-content {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-paragraph {
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.earth {
+    max-width: 450px;
+    max-height: 250px;
+    padding-top: 117px;
+    filter: drop-shadow(10px 10px 12px);
+}
+
+.stars {
+    max-width: 450px;
+    max-height: 250px;
+    padding-top: 117px;
+    filter: drop-shadow(10px 10px 12px);
+}
+
+.cosmos {
+    display: block;
+    width: 100vw;
+    height: 639px;
+}
+
+foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 20px 0;
+    width: 100vw;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 200px;
+}
+
+.right {
+    padding-right: 200px;
+}

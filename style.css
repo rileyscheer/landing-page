@@ -31,6 +31,11 @@ html, body {
     font-size: 18px;
     list-style-type: none;
     padding: 10px;
+    transition: all 50ms ease-in-out;
+}
+
+.link a:hover {
+    color: #3882F6;
 }
 
 .hero h1 {
@@ -70,6 +75,12 @@ html, body {
     border-radius: 8px;
     font-weight: bold;
     border: none;
+    transition: all 200ms ease-in-out;
+}
+
+.sign-up-top:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 .login {
@@ -81,6 +92,12 @@ html, body {
     height: 40px;
     font-weight: 700;
     margin-left: 15px;
+    transition: all 200ms ease-in-out;
+}
+
+.login:hover {
+    background-color: #E5E7EB;
+    color:#1F2937;
 }
 
 .white-section-header {
@@ -178,6 +195,12 @@ figcaption {
     height: 40px;
     font-weight: 700;
     margin-left: 100px;
+    transition: all 200ms ease-in-out;
+} 
+
+.sign-up-bottom:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
 
 foot {
