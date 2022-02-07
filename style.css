@@ -11,7 +11,7 @@ html, body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 190px;
+    padding: 0 8vw;
 }
 
 .hero ul {
@@ -22,7 +22,7 @@ html, body {
 
 .link {
     list-style-type: none;
-    margin: 0 5px;
+    margin: 0 0.2vw;
 }
 
 .link a {
@@ -30,7 +30,7 @@ html, body {
     color: #E5E7EB;
     font-size: 18px;
     list-style-type: none;
-    padding: 10px;
+    padding: 0.4vw;
     transition: all 50ms ease-in-out;
 }
 
@@ -203,21 +203,21 @@ figcaption {
     color: #3882F6;
 }
 
-foot {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #E5E7EB;
     background-color: #1F2937;
-    padding: 20px 0;
+    padding: 1vh 0;
 }
 
 .left {
     display: flex;
     justify-content: flex-start;
-    padding-left: 200px;
+    padding-left: 8vw;
 }
 
 .right {
-    padding-right: 200px;
+    padding-right: 8vw;
 }
